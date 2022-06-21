@@ -11,6 +11,9 @@ package com.skillstorm.week1.day1;
  *    - The process of data hiding in order to protect certain values. Typically via getters/setters
  * 2. Inheritance
  *    - Creating child classes that inherit the properties of parent classes. Helps for code reuse
+ * 3. Abstraction
+ * 4. Polymorphism
+ *    - "Many forms". We can use overloading for compile time or a parent class for runtime polymorphism
  */
 
 // If not extends keyword is found on a class, the class will extend Object
