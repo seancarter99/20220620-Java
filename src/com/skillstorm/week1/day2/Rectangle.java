@@ -49,6 +49,11 @@ public class Rectangle extends Shape implements Polygon {
 		return (2 * length) + (2 * width);
 	}
 	
+	@Override
+	public String toString() {
+		return "Rectangle [length=" + length + ", width=" + width + "]";
+	}
+
 	public static void main(String[] args) {
 		Rectangle rect = new Rectangle(5.0, 10.0);
 		System.out.println("Area of the rectangle is: " + rect.calcArea());
