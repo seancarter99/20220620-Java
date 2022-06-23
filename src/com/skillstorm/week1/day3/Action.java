@@ -41,7 +41,8 @@ class DoSomething<T> implements Action<T> {
 
 	@Override
 	public void act(T item) {
-		System.out.println(item);
+		// TODO Auto-generated method stub
+		
 	}
-	
+
 }
